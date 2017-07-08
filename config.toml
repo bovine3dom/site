@@ -1,0 +1,55 @@
+baseurl = "https://example.com"
+languageCode = "en"
+title = "The Blanthorn Blog"
+theme = "hucore"
+copyright = "<img class=\"logo-manchester\" src=\"/images/TAB_black.svg\"> <a href=\"https://github.com/mgjohansen/hucore.git\" target=\"_blank\">Hucore theme</a> & <a href=\"http://gohugo.io\" target=\"_blank\">Hugo</a> "
+#disqusShortname = "shortname"
+#googleAnalytics = "trackingcode"
+#website: http://student.cs.manchester.ac.uk/~mbcx9ob4/
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+description = "Your description here"
+keywords = ["keyword 1", "keyword 2", "keyword 3"]
+author = "Oliver Blanthorn"
+sharingicons = false
+displayauthor = true
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/bovine3dom"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "http://orcid.org/0000-0002-1324-128X"
+fa_icon = "fa-id-card-o" 
+
+[[params.social]]
+url = "https://scholar.google.co.uk/citations?user=6W4LhPgAAAAJ"
+fa_icon = "fa-graduation-cap"
+
+#[[params.social]]
+#url = "https://gitlab.com/mgjohansen"
+#fa_icon = "fa-gitlab"
+
+#[[params.social]]
+#url = "https://twitter.com/mgjohansen"
+#fa_icon = "fa-twitter"
+
+#[[params.social]]
+#url = "https://linkedin.com/in/mgjohansen"
+#fa_icon = "fa-linkedin-square"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
+
+#[[params.socialshare]]
+#url = "https://linkedin.com/in/mgjohansen"
+#fa_icon = "fa-linkedin-square"

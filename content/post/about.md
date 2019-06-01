@@ -5,30 +5,13 @@ date: 2017-07-07T17:12:15+01:00
 
 # Hi!
 
-<!-- TODO: Work out why RSS icon is blocked -->
-<!-- fill in website -->
-<!-- document changes ie git -->
-<!-- get rid of underlines on links -->
-<!-- make UoM logo slightly biger and link to something and be less bad -->
-<!-- sort out footer -->
-<!-- center me -->
-<!-- think of stuff to write -->
-<!-- see if this counts as public engagement -->
-<!-- think about policy stuff -->
-<!-- think about where to host -->
-<!-- fix summaries to be formatted correctly: ask colon -->
-
-<!-- ![me](/images/me.jpg){width=40%} -->
-
-
 I'm a Postgraduate Researcher at the University of Manchester working with complex networks. My supervisor, Dr Eva Navarro-López[^Eva], and I are investigating the robustness of complex networks.
 
 {{< figure class="blog-image" src="/images/me.jpg" title="This is me." >}}
 
-I generally programme in Python and Julia
+I generally programme in Python and Julia[^Julia].
 
 I am at the School of Computer Science Centre for Doctoral Training. I previously studied Theoretical Physics in the School of Physics and Astronomy, also at the University of Manchester. As part of that degree I worked with Ksenia Grozdova under Sue Astley on a project on measuring mammographic density using computer vision techniques.
-
 <!--more-->
 
 <!-- that tells Hugo where to cut things off -->
@@ -50,4 +33,4 @@ end
 You can contact me at oliver.blanthorn---at---postgrad.manchester.ac.uk, or come and find me in my office in room 2.106 of the Kilburn building.
 
 [^Eva]: http://www.cs.man.ac.uk/~navarroe/
-
+[^Julia]: https://julialang.org/

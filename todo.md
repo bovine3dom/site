@@ -10,9 +10,12 @@
 <!-- think about policy stuff -->
 <!-- think about where to host -->
 <!-- fix summaries to be formatted correctly: ask colon -->
+<!-- add CV -->
+<!-- switch font to Inter -->
 
 <!-- ![me](/images/me.jpg){width=40%} -->
 
-<!-- make private github repo -->
 <!-- figure out how to deploy -->
+<!-- https://gohugo.io/hosting-and-deployment/hosting-on-github/ -->
+<!-- https://help.github.com/en/articles/setting-up-a-custom-subdomain -->
 

@@ -10,7 +10,7 @@ I'm a Postgraduate Researcher at the University of Manchester working with compl
 I am at the School of Computer Science Centre for Doctoral Training. I previously studied Theoretical Physics in the School of Physics and Astronomy, also at the University of Manchester. As part of that degree I worked with Ksenia Grozdova under Sue Astley on a project on measuring mammographic density using computer vision techniques.
 <!--more-->
 
-You can view my GitHub repository at https://github.com/bovine3dom where you will find a small project I wrote for a C++ class, the code for the mammographic density estimation and, most importantly, my dotfiles. You might also stumble across [Tridactyl](https://github.com/tridactyl/tridactyl), a weirdly popular niche Firefox extension I develop alongside an extraordinary number of other people. I generally programme in Python and Julia[^Julia] These days, because of Tridactyl, I write quite a lot of TypeScript too, but I wouldn't strictly say that was by choice.
+You can view my GitHub repository at https://github.com/bovine3dom where you will find a small project I wrote for a C++ class, the code for the mammographic density estimation and, most importantly, my dotfiles. You might also stumble across [Tridactyl](https://github.com/tridactyl/tridactyl), a weirdly popular niche Firefox extension I develop alongside an extraordinary number of other people. I generally programme in Python and Julia[^Julia]. These days, because of Tridactyl, I write quite a lot of TypeScript too, but I wouldn't strictly say that was by choice.
 
 
 # Contact

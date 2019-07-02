@@ -129,4 +129,4 @@ Please tell your Tridactyl-using friends to update to version 1.16.0+ or 1.14.13
 - Finally, we must thank swalladge for asking the question in the first place!
 
 [^devs]: We have an excellent logo for the developer team which is exclusively visible to them. If this isn't incentive enough to make the 80 or so commits it takes to join the team, I don't know what is.
-[^dem]: This is the demonym(?) for people who use Tridactyl, I think. Disclaimer: I only studied Latin at school.
+[^dem]: This is the demonym(?) for people who use Tridactyl, I think. Disclaimer: most of my knowledge of Greek comes from symbols I badly scrawled in the name of Physics.

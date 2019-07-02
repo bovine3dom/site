@@ -1,6 +1,6 @@
 ---
 title: "The Tridactyl Keypress Security Bug"
-date: 2019-06-23T17:15:25+01:00
+date: 2019-07-02T16:00:00+01:00
 draft: true
 ---
 
@@ -75,14 +75,14 @@ For us, a whole host of things actually _went right_, which greatly limited the 
 
 - One of our developers missed a comment that said `// Ignore JS-generated events for security reasons.`
 
-- Our `mpv` hint-mode default bind `;v` didn't escape the `href`s it was fed so characters which were not escaped, e.g. `|`, could be used to start new shell commands after mpv exited.
+- Our `mpv` hint-mode default bind `;v` ran `mpv [href you selected]` in a shell but didn't escape the `href`s it was fed, so characters which were not escaped by URL-encoding, e.g. `|`, could be used to start new shell commands.
 
 - Our tests didn't (and don't) check that our key security assumptions are valid
 
 
 ## What went right
 
-- the `iframe` our command line lives in contains just a dumb textbox for which Firefox handles the key events---so no website could execute arbitrary ex-commands
+- our command line lives in an `iframe` ---so no website could execute arbitrary ex-commands
 
 - `href`s are percent-encoded which makes it much harder to give arguments to any shell-command.
 
@@ -91,13 +91,13 @@ For us, a whole host of things actually _went right_, which greatly limited the 
 
 - Any website could trigger binds outside of our command line for nuisance attacks - adding bookmarks, closing Firefox, etc.
 
-    - It would be hard for a website to trigger any non-default binds as it would have no way of knowing which those were.
+    - It would be hard for a website to trigger any non-default binds as it would have no way of knowing which those were without just trying them all, which would cause obvious side-effects on the page.
 
 - If the native messenger was installed, shell commands (without any arguments, to the best of our knowledge) could be executed.
 
     - Very creative attacks piping the output of `mpv` into another command could be possible but would require some amount of thought. We've spent some time trying to craft attacks but haven't managed it yet.
 
-For clarity: if you have the native messenger installed and you are on an unpatched version, it is possible that any website could execute commands in your shell and 
+For clarity: if you have the native messenger installed and you are on an unpatched version, it is possible that any website could execute commands with arguments in your shell. If you read any of the above and thought "ah, nevermind, it's just a minor issue, I don't need to update", I would politely urge you to reconsider.
 
 
 # Prevention
@@ -125,6 +125,8 @@ Please tell your Tridactyl-using friends to update to version 1.16.0+ or 1.14.13
 - Thanks to The Compiler of Qutebrowser fame for giving us some sound advice on how to disclose the vulnerability when we asked for it.
 
 - I'm very grateful to all of the Tridactyl developers for coming together to work out how serious this bug was and mitigate it.
+
+- Thanks to cmcaine for proof-reading this post.
 
 - Finally, we must thank swalladge for asking the question in the first place!
 

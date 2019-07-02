@@ -1,7 +1,7 @@
 ---
 title: "The Tridactyl Keypress Security Bug"
-date: 2019-07-02T16:00:00+01:00
-draft: true
+date: 2019-07-02T17:00:00+01:00
+draft: false
 ---
 
 What follows is a wordier write-up of Tridactyl's first real brush with (in)security from my personal perspective. If you're purely interested in the mitigations, head to the [GitHub repository](https:///github.com/tridactyl/tridactyl)---or just update Tridactyl to version 1.16.1 or 1.14.13 by going to `about:addons` in Firefox, right-clicking Tridactyl's listing, and clicking "Find Updates". Once it has downloaded (it will look like it's hanging---it isn't), restart Firefox and you're done. At the time of writing, [about 60% of users have a patched version](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/statistics/usage/versions/?last=30). <!-- make this point to the corresponding issue -->

@@ -14,7 +14,7 @@ On the morning of Friday, 14th June, 2019, a user came into Tridactyl's [Riot.im
 
 > can someone ELI5 - what's stopping a webpage from intracting with tridactyl? eg. sending keypress events to the command line
 
-It was quite a reasonable question. For those not in the know, Tridactyl is a Firefox extension which makes it all a little bit more like Vim. Importantly, it allows you to automate many actions---from "open this link in a new tab" and "open the current page in `mpv`" to "shutdown my computer if I visit `emacs.org`---which you wouldn't want any web page you visit to be able to trigger.
+It was quite a reasonable question. For those not in the know, Tridactyl is a Firefox extension which makes it all a little bit more like Vim. Importantly, it allows you to automate many actions---from "open this link in a new tab" and "open the current page in `mpv`" to "shutdown my computer if I visit `emacs.org`"---which you wouldn't want any web page you visit to be able to trigger.
 
 glacambre, another Tridactyl developer, quickly responded with the simple design cmcaine came up with in the first days of Tridactyl:
 

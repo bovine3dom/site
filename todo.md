@@ -9,12 +9,5 @@
 <!-- Improve contrast (i.e. use black for font face colour) -->
 <!-- Improve header colours -->
 <!-- favicon.ico -->
-<!-- go live on github pages -->
-<!-- use o.blanthorn.com domain -->
 
 <!-- ![me](/images/me.jpg){width=40%} -->
-
-<!-- figure out how to deploy -->
-<!-- https://gohugo.io/hosting-and-deployment/hosting-on-github/ -->
-<!-- https://help.github.com/en/articles/setting-up-a-custom-subdomain -->
-

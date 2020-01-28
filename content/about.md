@@ -18,7 +18,7 @@ I've recently done some consulting work with a friend for a transport consultanc
 
 # Contact
 
-You can contact me at oliver---at---blanthorn---.---com. My PGP fingerprint is 15D0 3C86 8379 36A0 (which is attached to a email address I chose in 2005), probably most easily found at https://keybase.io/bovine3dom, also available on the MIT and Ubuntu keyservers.
+You can contact me at oliver---at---blanthorn---.---com. My PGP fingerprint is 15D0 3C86 8379 36A0 (which is attached to a email address I chose in 2005), probably most easily found at [Keybase](https://keybase.io/bovine3dom), also available on the MIT and Ubuntu keyservers.
 
 [^Eva]: http://www.cs.man.ac.uk/~navarroe/
 [^Julia]: https://julialang.org/
